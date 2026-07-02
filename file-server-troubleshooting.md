@@ -137,3 +137,11 @@ NT AUTHORITY\SYSTEM      FullControl      Allow
 BUILTIN\Administrators   FullControl      Allow
 CORP\Management_User     FullControl      Allow
 ```
+```text
+PS C:\Users\Administrator> Get-SmbSession
+
+SessionId    ClientComputerName          ClientUserName NumOpens
+---------    ------------------          -------------- --------
+257698038381 192.168.56.20               CORP\mori      3
+257698038385 [fe80::b899:155a:8176:9251] CORP\DC01$     0
+```
