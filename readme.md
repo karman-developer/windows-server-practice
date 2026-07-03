@@ -1,6 +1,15 @@
 
 # Windows Server / Active Directory 学習・検証項目
 
+## 環境
+- PC（32GB / 1TB NVMe）
+- Windows 11 Pro
+- Hyper-V有効
+- 外部仮想スイッチ作成
+- Dドライブ（約750GB）
+- Hyper-V用フォルダー整理
+- Windows Server 2022 & 11 ISO準備
+
 ## 仮想環境
 - VirtualBox上にWindows Server環境を構築
 - Windowsクライアントを用意して検証環境を構築
