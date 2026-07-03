@@ -10,6 +10,13 @@
 - Hyper-V用フォルダー整理
 - Windows Server 2022 & 11 ISO準備
 
+## 仮想マシン
+- DC01（Domain Controller）
+- CLIENT01（Windows 11 Client）
+- FILE01（File Server）
+- UBUNTU01（Ubuntu Server）
+- SQL01（SQL Server）
+
 ## 仮想環境
 - VirtualBox上にWindows Server環境を構築
 - Windowsクライアントを用意して検証環境を構築
