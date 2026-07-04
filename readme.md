@@ -31,6 +31,7 @@
 - OUの作成・管理
 - ユーザーアカウントの作成・管理
 - グループの作成・管理
+```
 lab.example.com
 │
 ├── Domain Controllers
@@ -48,6 +49,7 @@ lab.example.com
 │      └── Accounting
 │
 └── Groups_OU
+```
 
 ## ファイルサーバー
 - ファイルサーバーの構築
@@ -68,6 +70,7 @@ lab.example.com
 - `DistinguishedName` の確認
 - ユーザー100件一括追加（初回パスワード変更付）
 - ユーザー名に特定の文字列が入っているユーザーを一括削除
+
 | 氏名    | ログオン名    | 部
 | ----- | -------- | --- |
 | 田中 太郎 | t.tanaka | IT |
