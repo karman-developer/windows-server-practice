@@ -31,6 +31,23 @@
 - OUの作成・管理
 - ユーザーアカウントの作成・管理
 - グループの作成・管理
+lab.example.com
+│
+├── Domain Controllers
+│      └── DC01
+│
+├── Servers_OU
+│      ├── FileServers
+│      └── SQLServers
+│
+├── Computers_OU
+│
+├── Users_OU
+│      ├── IT
+│      ├── Sales
+│      └── Accounting
+│
+└── Groups_OU
 
 ## ファイルサーバー
 - ファイルサーバーの構築
@@ -51,6 +68,14 @@
 - `DistinguishedName` の確認
 - ユーザー100件一括追加（初回パスワード変更付）
 - ユーザー名に特定の文字列が入っているユーザーを一括削除
+| 氏名    | ログオン名    | 部
+| ----- | -------- | --- |
+| 田中 太郎 | t.tanaka | IT |
+| 鈴木 一郎 | i.suzuki | IT |
+| 佐藤 花子 | h.sato      | 営業 |
+| 高橋 健  | k.takahashi | 営業 |
+| 山田 美咲 | m.yamada   | 経理 |
+| 中村 翼  | t.nakamura | 経理 |
 
 ## トラブルシューティング
 - ADユーザー作成時のエラー対応
